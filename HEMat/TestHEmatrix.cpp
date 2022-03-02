@@ -25,10 +25,10 @@
 #include <NTL/mat_ZZ.h>
 
 
-#include "../src/Context.h"
-#include "../src/Scheme.h"
-#include "../src/SecretKey.h"
-#include "../src/TimeUtils.h"
+#include "../HEAAN/Context.h"
+#include "../HEAAN/Scheme.h"
+#include "../HEAAN/SecretKey.h"
+#include "../HEAAN/TimeUtils.h"
 
 #include "matrix.h"
 #include "HEmatrix.h"

@@ -35,8 +35,6 @@ OBJ= $(SRC:.cpp=.o)
 #  Library
 #
 ###############################################################
-Libheaan: ar rc libheaan.a ../src/*.o
-
 all: libHEMat.a
 
 clean:
@@ -53,7 +51,7 @@ new:
 ###############################################################
 
 test:
-	g++ -std=c++11 -O2 -I/usr/local/include -pthread main.cpp libHEMat.a -o foo ../src/libheaan.a -L/usr/local/lib -lntl -lgmp -lm
+	g++ -std=c++11 -O2 -I/usr/local/include -pthread main.cpp libHEMat.a -o foo ../HEAAN/libheaan.a -L/usr/local/lib -lntl -lgmp -lm
 
 
 obj: $(OBJ)

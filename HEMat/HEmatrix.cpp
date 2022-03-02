@@ -38,9 +38,9 @@
 #include "NTL/mat_RR.h"
 #include "NTL/vec_RR.h"
 
-#include "../src/Scheme.h"
-#include "../src/SecretKey.h"
-#include "../src/SchemeAlgo.h"
+#include "../HEAAN/Scheme.h"
+#include "../HEAAN/SecretKey.h"
+#include "../HEAAN/SchemeAlgo.h"
 
 #include "matrix.h"
 #include "HEmatrix.h"

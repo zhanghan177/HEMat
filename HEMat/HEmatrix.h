@@ -25,8 +25,8 @@
 #include "NTL/mat_RR.h"
 #include "NTL/vec_RR.h"
 
-#include "../src/Scheme.h"
-#include "../src/SecretKey.h"
+#include "../HEAAN/Scheme.h"
+#include "../HEAAN/SecretKey.h"
 
 using namespace std;
 using namespace NTL;
